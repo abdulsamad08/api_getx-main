@@ -3,7 +3,7 @@ class UserModel {
   Info? info;
 
   UserModel({this.results, this.info});
-
+// UserModel
   UserModel.fromJson(Map<String, dynamic> json) {
     if (json['results'] != null) {
       results = <Results>[];
